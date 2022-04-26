@@ -45,7 +45,7 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 10) 아래와 같이 SQS Permission 설정합니다.
 
-,```java
+```java
         {
             "Effect": "Allow",
             "Action": [
