@@ -9,11 +9,12 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 2) Function name으로 "lambda-for-functional-url"이라고 입력후, [Create function]을 선택합니다. 
 
-![noname](https://user-images.githubusercontent.com/52392004/165217604-999c675c-a4e6-47e8-970b-06c22e48b93d.png)
+![noname](https://user-images.githubusercontent.com/52392004/165222401-4e66f6f7-5711-4189-9521-867ec9c71294.png)
+
 
 3) 아래와 같이 lambda 함수가 생성됩니다.
 
-![image](https://user-images.githubusercontent.com/52392004/165217726-f80c5625-bd6c-4814-a311-d47d48605114.png)
+
 
 4) 아래와 같이 [Configuration] - [Functional URL] - [Create functional URL]을 선택합니다.
 
