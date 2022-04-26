@@ -1,4 +1,4 @@
-# Lambda for Functional URL
+# Lambda for Functional URL (SQS)
 
 디바이스로부터 REST API를 통해 event를 받기 위해서는 http(s)에 대한 Endpoint가 필요합니다. 여기서는 Lambda Functional URL을 이용합니다.
 
@@ -32,13 +32,9 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 <img width="651" alt="image" src="https://user-images.githubusercontent.com/52392004/165218817-12df2433-5619-4c3c-b954-769674458305.png">
 
-8) 아래 그림처럼 [Code]로 이동하여 아래의 [Lambda for Functional URL] 코드를 index.js에 붙여 넣기를 하고, [Deploy]를 선택하여 수정된 코드를 Lambda Function에 반영합니다. [Lambda for Functional URL]의 경우에 SQS와 Kinesis Data Stream의 코드가 다르니 구분하여 사용합니다. 
+8) 아래 그림처럼 [Code]로 이동하여 아래의 [Lambda for Functional URL] 코드를 index.js에 붙여 넣기를 하고, [Deploy]를 선택하여 수정된 코드를 Lambda Function에 반영합니다. 
 
 [Lambda for Functional URL - Queue](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/queue/lambda-for-functional-url/index.js)
-
-[Lambda for Functional URL - Kinesis Data Stream](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/kinesis-data-stream/lambda-for-functional-url/index.js)
-
-
 
 ![noname](https://user-images.githubusercontent.com/52392004/165222949-cd52cab3-b270-43f2-bbe7-94cf649a44d7.png)
 
