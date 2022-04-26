@@ -32,7 +32,7 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 <img width="651" alt="image" src="https://user-images.githubusercontent.com/52392004/165218817-12df2433-5619-4c3c-b954-769674458305.png">
 
-8) 아래 그림처럼 [Code]로 이동하여 아래의 [Lambda for Functional URL] 코드를 index.js에 붙여 넣기를 합니다. 
+8) 아래 그림처럼 [Code]로 이동하여 아래의 [Lambda for Functional URL] 코드를 index.js에 붙여 넣기를 하고, [Deploy]를 선택하여 수정된 코드를 Lambda Function에 반영합니다. 
 
 [Lambda for Functional URL](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/queue/lambda-for-functional-url/index.js)
 
