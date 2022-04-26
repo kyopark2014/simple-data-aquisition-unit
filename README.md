@@ -18,7 +18,7 @@ https://<url-id>.lambda-url.<region>.on.aws
 
 1) [SQS](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/sqs.md)를 생성합니다. 
   
-2) [Lambda]
+2) [Lambda for Functional URL](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-functional-url.md)을 생성합니다.
 
 
 
