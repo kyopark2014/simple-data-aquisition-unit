@@ -39,5 +39,11 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 [Lambda for Functional URL - Kinesis Data Stream](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/kinesis-data-stream/lambda-for-functional-url/index.js)
 
 
+
 ![noname](https://user-images.githubusercontent.com/52392004/165222949-cd52cab3-b270-43f2-bbe7-94cf649a44d7.png)
+
+
+9) 아래 그림과 같이 [Configuration] - [Environment variables]에서 [Edit]를 선택한 후에, "Key"로 "sqlUrl"을 넣고, "Value"에는 [SQS](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/sqs.md) 생성할때 복사해놓은 SQS URL을 입력합니다.  
+
+![noname](https://user-images.githubusercontent.com/52392004/165233595-94b2a8ac-97d9-47a1-9adb-84a50bf6907e.png)
 
