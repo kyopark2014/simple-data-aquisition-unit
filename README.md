@@ -16,11 +16,10 @@ https://<url-id>.lambda-url.<region>.on.aws
 
 ![image](https://user-images.githubusercontent.com/52392004/165213674-26a20230-8bf7-46d5-9adc-310146301558.png)
 
+1) [SQS](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/sqs.md)를 생성합니다. 
+  
+  
 
-
-maximum message size: 256KB
-
-retention period: 4days(default), 60seconds ~ 14days
 
 
 ## Kinesis Data Stream
