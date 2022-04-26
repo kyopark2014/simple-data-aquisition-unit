@@ -4,9 +4,7 @@
 
 ## Lambda Functional URL
 
-[AWS Lambda Functional URLs](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 적용됨으로 인해, Lambda 함수를 외부에서 간단하게 접속이 가능합니다. [Functional URL의 endpoint](https://docs.aws.amazon.com/lambda/latest/dg/lambda-urls.html)는 아래와 같은 포맷으로 구성됩니다. 
-
-https://<url-id>.lambda-url.<region>.on.aws
+[AWS Lambda Functional URLs](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 적용됨으로 인해, Lambda 함수를 외부에서 간단하게 접속이 가능합니다. 
 
 
 
