@@ -42,3 +42,25 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 9) 아래 그림과 같이 [Configuration] - [Environment variables]에서 [Edit]를 선택한 후에, "Key"로 "sqlUrl"을 넣고, "Value"에는 [SQS](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/sqs.md) 생성할때 복사해놓은 SQS URL을 입력합니다.  
 
 ![noname](https://user-images.githubusercontent.com/52392004/165233595-94b2a8ac-97d9-47a1-9adb-84a50bf6907e.png)
+
+10) 아래와 같이 SQS Permission 설정합니다.
+
+,```java
+        {
+            "Effect": "Allow",
+            "Action": [
+                "sqs:SendMessage",
+                "sqs:DeleteMessage",
+                "sqs:ChangeMessageVisibility",
+                "sqs:ReceiveMessage",
+                "sqs:TagQueue",
+                "sqs:UntagQueue",
+                "sqs:PurgeQueue",
+                "sqs:GetQueueAttributes"
+            ],
+            "Resource": "arn:aws:sqs:ap-northeast-2:[Account Number]:DataAcquisitionQueue"
+        }
+```  
+
+![noname](https://user-images.githubusercontent.com/52392004/165349468-286894f0-e1b6-45d2-82ba-d6d0ffa1f2d3.png)
+
