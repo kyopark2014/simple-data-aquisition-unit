@@ -31,3 +31,6 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 <img width="651" alt="image" src="https://user-images.githubusercontent.com/52392004/165218817-12df2433-5619-4c3c-b954-769674458305.png">
 
+8) 아래의 코드를 복사하여 index.js에 붙여 넣기를 합니다. 
+
+[Lambda for Functional URL](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/queue/lambda-for-functional-url/index.js)
