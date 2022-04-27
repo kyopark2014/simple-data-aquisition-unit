@@ -33,13 +33,30 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
                 "sqs:GetQueueAttributes"
             ],
             "Resource": "arn:aws:sqs:ap-northeast-2:[Account Number]:DataAcquisitionQueue"
+        },
+        {
+            "Action": [
+                "s3:AbortMultipartUpload",
+                "s3:GetBucketLocation",
+                "s3:GetObject",
+                "s3:ListBucket",
+                "s3:ListBucketMultipartUploads",
+                "s3:PutObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::data-acquisition-unit",
+                "arn:aws:s3:::data-acquisition-unit/*"
+            ],
+            "Effect": "Allow"
         }
 ```
-![noname](https://user-images.githubusercontent.com/52392004/165484279-11868dd0-e7d7-4247-a55f-f204589eb0f8.png)
+
+![noname](https://user-images.githubusercontent.com/52392004/165485683-cf0d0408-31bb-4ad5-811d-063c401fb7d1.png)
+
+
 
 6) 아래의 퍼미션을 확인후 [Save changes]를 선택합니다. 
 
-![noname](https://user-images.githubusercontent.com/52392004/165484635-03de005b-4717-4851-b9a8-1ffd6b3d2d67.png)
-
+![noname](https://user-images.githubusercontent.com/52392004/165485946-2576c1e3-dadd-40d8-90ad-e07dc5bcce4b.png)
 
 
