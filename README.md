@@ -25,8 +25,11 @@ $ git clone https://github.com/kyopark2014/simple-data-aquisition-unit
 
 ## Amazon Kinesis Data Streams
 
+[Kinesis Data Streams 생성](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/kinesis-data-streams.md)에 따라 Kinesis Data Stream을 생성합니다. 
 
+## Amazon Kinesis Data Firehose
 
+[Amazon Kinesis Data Firehose](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-firehose.md)을 이용해 안정적으로 S3로 데이터를 저장할 수 있습니다. 이때 기본값은 json 포맷을 사용합니다. [Amazon Kinesis Data Firehose 생성](
 
 1) [SQS](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/sqs.md)를 생성합니다. 
   
