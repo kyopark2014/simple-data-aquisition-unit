@@ -47,7 +47,7 @@ $ git clone https://github.com/kyopark2014/simple-data-aquisition-unit
 
 ## Lambda for output
 
-[Lambda for output](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-output.md)에 따라서 최종 결과를 로그를 확인할 수 있도록 합니다. 
+[Lambda for output](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-output.md)에 따라 Lambda for output를 설치하면, 수집된 데이터를 로그로 확인할 수 있도록 합니다. 
 
 
 ## 시험 및 결과
