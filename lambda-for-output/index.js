@@ -15,10 +15,12 @@ exports.handler = async (event) => {
         
         const body = record['body'];
         console.log('body = '+body);
-    
-        const data = record['body']['data'];
-        console.log('data = '+data);
-    
+
+        const data = JSON.parse(body);
+ 
+        let output = Buffer.from(data, 'base64');
+        console.log('output = '+output);
+  
         // remove message queue 
         try {
             const deleteParams = {
