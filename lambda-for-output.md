@@ -40,3 +40,16 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 ![noname](https://user-images.githubusercontent.com/52392004/165530704-9ac707ec-dd69-4b97-a553-078856bb6475.png)
 
+7) 아래와 같이 [Functional overview]에서 [Add trigger]를 선택합니다.
+
+![noname](https://user-images.githubusercontent.com/52392004/165532154-3d9750bf-390b-47b3-87f9-254c315e746a.png)
+
+
+8) 아래와 같이 Lambda for Output은 SQS로 부터 trigger 됩니다. 
+
+![image](https://user-images.githubusercontent.com/52392004/165533294-388e8fe6-7267-4396-a0d9-d992d1ed481e.png)
+
+
+
+
+
