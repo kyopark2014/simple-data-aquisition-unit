@@ -1,6 +1,6 @@
 # Simple Data Acquisition Unit
 
-여기서는 모바일이나 TC와 같은 디바이스에서 발생하는 event들을 저장하고 이용하는 방법에 대해서 [Kinesis Data Stream](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-stream.md)와 [Kinesis Data Firehose](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-firehose.md)를 사용하여 보여줍니다. 이벤트 데이터는 Amazon S3에 저장되는데 Bucket에 Object가 Create 될 때의 event를 Lambda로 받은 후에, [Amazon SQS](https://github.com/kyopark2014/technical-summary/blob/main/sqs.md)에 Push 하고 다시 이를 Lambda for output에서 활용합니다.
+여기서는 모바일이나 TC와 같은 디바이스에서 발생하는 event들을 저장하고 이용하는 방법에 대해서 [Kinesis Data Stream](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-stream.md)와 [Kinesis Data Firehose](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-firehose.md)를 사용하여 보여줍니다. 수집된 데이터는 Amazon S3에 저장되는데, Bucket에 Object가 Create 될 때의 event를 Lambda로 받은 후에, [Amazon SQS](https://github.com/kyopark2014/technical-summary/blob/main/sqs.md)에 Push 하고 다시 이를 Lambda for output에서 활용합니다.
 
 전체적인 Architecture는 아래와 같습니다.
 
@@ -15,13 +15,17 @@
 $ git clone https://github.com/kyopark2014/simple-data-aquisition-unit
 ```
 
-## Lambda Functional URL
+## Lambda for Functional URL
 
 [AWS Lambda Functional URLs](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 상용 적용됨으로 인해, Lambda 함수를 외부에서 간단하게 접속이 가능합니다. 여기서는 Simple한 Data Acquisition Unit를 설계하므로, Lambda Functional URL 기능을 활용합니다. 
 
 [Lambda for Functional URL](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-furnctional-url.md)에 따라 Lambda를 생성하고, Functional URL 기능을 Enable 합니다. 
 
-디바이스들로 부터 전달되는 이벤트는 application/json의 Content-type을 가집니다. RESTful API를 통해 HTTPS POST를 이용해 데이터가 Lmabda for Functional URL로 전달됩니다. 
+디바이스들로 부터 전달되는 이벤트는 application/json 방식의 Content-type을 가진다고 가정합니다. RESTful API를 통해 HTTPS POST를 이용해 데이터가 Lambda for Functional URL로 전달됩니다. 
+
+## Amazon Kinesis Data Streams
+
+
 
 
 1) [SQS](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/sqs.md)를 생성합니다. 
