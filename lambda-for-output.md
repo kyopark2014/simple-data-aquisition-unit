@@ -61,3 +61,8 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 ![noname](https://user-images.githubusercontent.com/52392004/165564227-ff603ab4-77d8-4d81-a02f-63a78441ca83.png)
 
 
+## Lambda for output에 들어오는 event의 예 
+
+![image](https://user-images.githubusercontent.com/52392004/165640328-a6a875de-5001-4e68-a8cf-33240b6805e1.png)
+
+
