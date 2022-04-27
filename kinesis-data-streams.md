@@ -6,6 +6,11 @@ https://ap-northeast-2.console.aws.amazon.com/kinesis/home?region=ap-northeast-2
 
 2) 아래와 같이 [Data stream name]을 "data-acquisition-unit"로 입력하고, 아래로 스크롤하여 [Create data stream]을 선택합니다. 
 
+![noname](https://user-images.githubusercontent.com/52392004/165576507-af7f24c8-3990-4e75-969e-887407d07978.png)
+
+
+
+
 3) 아래와 같이 Kinesis Data Stream이 생성됩니다. 이때, 생성된 "data-acquisition-unit"를 선택합니다. 
 
 ![noname](https://user-images.githubusercontent.com/52392004/165541606-92a03739-d4de-4e06-a52f-7581b62f0136.png)
@@ -15,4 +20,5 @@ https://ap-northeast-2.console.aws.amazon.com/kinesis/home?region=ap-northeast-2
 ![noname](https://user-images.githubusercontent.com/52392004/165542208-82e3bc74-3b27-49c4-9c96-adc2b41addf2.png)
 
 
+![noname](https://user-images.githubusercontent.com/52392004/165575357-be5ff904-32e1-49ba-b971-082ab8f81a54.png)
 
