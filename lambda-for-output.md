@@ -55,3 +55,7 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 ![image](https://user-images.githubusercontent.com/52392004/165563138-d4401f44-0957-41f8-ae25-6d8d9c911aae.png)
 
 10) 아래와 같이 [key]로 "sqsUrl"을 넣고 [value]로 [SQS 생성](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/SQS.md)시에 복사해 놓은 SQS URL 정보를 입력합니다. 이후 [Save]를 선택합니다.
+
+![noname](https://user-images.githubusercontent.com/52392004/165564227-ff603ab4-77d8-4d81-a02f-63a78441ca83.png)
+
+
