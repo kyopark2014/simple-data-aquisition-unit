@@ -1,4 +1,4 @@
-# Simple Event Data Acquisition Unit
+# Simple Data Acquisition Unit
 
 여기서는 모바일이나 TC와 같은 디바이스에서 발생하는 어떤 event를 저장하는 방법에 대해서 Amazon SQS과 Amazon Kinesis Data Stream을 이용하는 방법에 대하여 구분하여 설명하고자 합니다.
 
