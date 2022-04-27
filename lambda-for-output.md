@@ -50,6 +50,8 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 ![image](https://user-images.githubusercontent.com/52392004/165533294-388e8fe6-7267-4396-a0d9-d992d1ed481e.png)
 
 
+9) [Configuration] - [Environment variables]에서 [Edit]를 선택합니다.
 
+![image](https://user-images.githubusercontent.com/52392004/165563138-d4401f44-0957-41f8-ae25-6d8d9c911aae.png)
 
-
+10) 아래와 같이 [key]로 "sqsUrl"을 넣고 [value]로 [SQS 생성](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/SQS.md)시에 복사해 놓은 SQS URL 정보를 입력합니다. 이후 [Save]를 선택합니다.
