@@ -53,3 +53,6 @@ $ git clone https://github.com/kyopark2014/simple-data-aquisition-unit
 ## 시험 및 결과
 
 1) Postman에서 Lambda Functional URL을 이용하여 테스트 합니다. 아래와 같이 [raw]에 json 형태로 입력하고, [Send]를 통해 발신하면 아래와 같이 생성된 "PartitionKey"가 전달됩니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/165553822-8a0ac44a-1b12-4525-9285-624f9b8a2179.png)
+
