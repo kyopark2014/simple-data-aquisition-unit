@@ -7,6 +7,8 @@
 [AWS Lambda Functional URLs](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 적용됨으로 인해, Lambda 함수를 외부에서 간단하게 접속이 가능합니다. 
 
 
+<img width="841" alt="image" src="https://user-images.githubusercontent.com/52392004/165455510-88a432d1-379d-4098-8dbd-bd3e77c1d230.png">
+
 
 ## Amazon SQS 
 
