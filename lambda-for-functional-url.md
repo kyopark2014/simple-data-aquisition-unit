@@ -48,17 +48,13 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
         {
             "Effect": "Allow",
             "Action": [
-                "sqs:SendMessage",
-                "sqs:DeleteMessage",
-                "sqs:ChangeMessageVisibility",
-                "sqs:ReceiveMessage",
-                "sqs:TagQueue",
-                "sqs:UntagQueue",
-                "sqs:PurgeQueue",
-                "sqs:GetQueueAttributes"
+                "kinesis:*"
             ],
-            "Resource": "arn:aws:sqs:ap-northeast-2:[Account Number]:DataAcquisitionQueue"
+            "Resource": [
+                "arn:aws:kinesis:ap-northeast-2:[Account Number]:stream/*"
+            ]
         }
 ```  
 
-![noname](https://user-images.githubusercontent.com/52392004/165349468-286894f0-e1b6-45d2-82ba-d6d0ffa1f2d3.png)
+![noname](https://user-images.githubusercontent.com/52392004/165645667-f0d8ab69-b789-4e61-82df-20d23cfc0028.png)
+
