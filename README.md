@@ -1,10 +1,10 @@
 # Simple Data Acquisition Unit
 
-여기서는 모바일이나 TC와 같은 디바이스에서 발생하는 event들을 저장하고 이용하는 방법에 대해서 [Kinesis Data Stream](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-stream.md)와 [Kinesis Data Firehose](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-firehose.md)를 사용하여 데이터를 S3에 저장합니다. Amazon S3에 Object가 Create될때의 event를 Lambda로 읽은 후에 [Amazon SQS](https://github.com/kyopark2014/technical-summary/blob/main/sqs.md)에 Push 하고 다시 이를 Lambda for output에서 활용합니다.
+여기서는 모바일이나 TC와 같은 디바이스에서 발생하는 event들을 저장하고 이용하는 방법에 대해서 [Kinesis Data Stream](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-stream.md)와 [Kinesis Data Firehose](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-firehose.md)를 사용하여 데이터를 S3에 저장합니다. Amazon S3에 Object가 Create될때의 event를 Lambda로 받은 후에, [Amazon SQS](https://github.com/kyopark2014/technical-summary/blob/main/sqs.md)에 Push 하고 다시 이를 Lambda for output에서 활용합니다.
 
 전체적인 Architecture는 아래와 같습니다.
 
-<img width="841" alt="image" src="https://user-images.githubusercontent.com/52392004/165455510-88a432d1-379d-4098-8dbd-bd3e77c1d230.png">
+![Uploading image.png…]()
 
 본 Repository는 기본적인 데이터 저장 및 활용 시나리오를 설명하므로, IaC (infrastructure as Code)를 사용하지 않고, Console로만 구현합니다. 실제 구현전에 현재 repository를 다운로드 합니다. 
 
