@@ -28,7 +28,7 @@ exports.handler = async (event) => {
     }
     console.log('body: %j', data);
 
-    let pk = md5(data);
+    let pk = md5(JSON.stringify(data));
     console.log('pk: '+pk);
 
     const kinesisParams = {
