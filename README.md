@@ -64,4 +64,3 @@ $ git clone https://github.com/kyopark2014/simple-data-aquisition-unit
 
 ![image](https://user-images.githubusercontent.com/52392004/165638743-27dfb01a-d6f9-4dc4-a57d-92f0aa3db7e7.png)
 
-[Amazon S3 생성](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/S3.md)에 따라 S3 Bucket을 생성합니다. 
