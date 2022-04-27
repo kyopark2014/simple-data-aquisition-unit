@@ -56,3 +56,12 @@ $ git clone https://github.com/kyopark2014/simple-data-aquisition-unit
 
 ![noname](https://user-images.githubusercontent.com/52392004/165553822-8a0ac44a-1b12-4525-9285-624f9b8a2179.png)
 
+2) Amazon S3에 Object로 저장된 데이터의 예 
+
+![image](https://user-images.githubusercontent.com/52392004/165638851-84baa361-daf1-4031-8ab5-1f88cb931ff3.png)
+
+3) CloudWatch에서 확인한 Output의 예 
+
+![image](https://user-images.githubusercontent.com/52392004/165638743-27dfb01a-d6f9-4dc4-a57d-92f0aa3db7e7.png)
+
+[Amazon S3 생성](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/S3.md)에 따라 S3 Bucket을 생성합니다. 
