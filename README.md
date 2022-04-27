@@ -43,9 +43,13 @@ $ git clone https://github.com/kyopark2014/simple-data-aquisition-unit
 
 ## Amazon SQS 
 
+[Amazon SQS 생성](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/sqs.md)에 따라 Amazon SQS를 생성합니다.
+
+## Lambda for output
+
+[Lambda for output](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/sqs.md)에 따라서 최종 결과를 로그를 확인할 수 있도록 합니다. 
 
 
-1) [SQS](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/sqs.md)를 생성합니다. 
-  
-2) [Lambda for Functional URL](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-functional-url-sqs.md)을 생성합니다.
+## 시험 및 결과
 
+1) Postman에서 Lambda Functional URL을 이용하여 테스트 합니다. 아래와 같이 [raw]에 json 형태로 입력하고, [Send]를 통해 발신하면 아래와 같이 생성된 "PartitionKey"가 전달됩니다. 
