@@ -4,7 +4,8 @@
 
 전체적인 Architecture는 아래와 같습니다.
 
-![Uploading image.png…]()
+<img width="837" alt="image" src="https://user-images.githubusercontent.com/52392004/165537356-3e29a707-f24e-4859-8f3b-acd6b7e7e603.png">
+
 
 본 Repository는 기본적인 데이터 저장 및 활용 시나리오를 설명하므로, IaC (infrastructure as Code)를 사용하지 않고, Console로만 구현합니다. 실제 구현전에 현재 repository를 다운로드 합니다. 
 
