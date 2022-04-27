@@ -72,3 +72,6 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 ![image](https://user-images.githubusercontent.com/52392004/165487983-c1159e80-a518-4f65-b585-1361ddc9ac7c.png)
 
 
+## Amazon S3에 새 파일이 생성되면서 Lambda for SQS에 들어오는 event의 예
+
+![image](https://user-images.githubusercontent.com/52392004/165640513-150d819e-7530-4c6c-8196-3cae7c10f8eb.png)
