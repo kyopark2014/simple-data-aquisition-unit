@@ -47,7 +47,7 @@ $ git clone https://github.com/kyopark2014/simple-data-aquisition-unit
 
 ## Lambda for output
 
-[Lambda for output](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-output.md)에 따라서 최종 결과를 로그를 확인할 수 있도록 합니다. 
+[Lambda for output](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-output.md)에 따라 Lambda for output를 설치하면, 수집된 데이터를 로그로 확인할 수 있도록 합니다. 
 
 
 ## 시험 및 결과
@@ -55,4 +55,12 @@ $ git clone https://github.com/kyopark2014/simple-data-aquisition-unit
 1) Postman에서 Lambda Functional URL을 이용하여 테스트 합니다. 아래와 같이 [raw]에 json 형태로 입력하고, [Send]를 통해 발신하면 아래와 같이 생성된 "PartitionKey"가 전달됩니다. 
 
 ![noname](https://user-images.githubusercontent.com/52392004/165553822-8a0ac44a-1b12-4525-9285-624f9b8a2179.png)
+
+2) Amazon S3에 Object로 저장된 데이터의 예 
+
+![image](https://user-images.githubusercontent.com/52392004/165638851-84baa361-daf1-4031-8ab5-1f88cb931ff3.png)
+
+3) CloudWatch에서 확인한 Output의 예 
+
+![image](https://user-images.githubusercontent.com/52392004/165638743-27dfb01a-d6f9-4dc4-a57d-92f0aa3db7e7.png)
 

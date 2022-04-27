@@ -32,11 +32,10 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 <img width="651" alt="image" src="https://user-images.githubusercontent.com/52392004/165218817-12df2433-5619-4c3c-b954-769674458305.png">
 
-8) 아래 그림처럼 [Code]로 이동하여 아래의 [Lambda for Functional URL] 코드를 index.js에 붙여 넣기를 하고, [Deploy]를 선택하여 수정된 코드를 Lambda Function에 반영합니다. 
+8) 아래 그림처럼 [Code]로 이동하여 [Upload from]을 선택 후에 ".zip file"로 [Lambda for Functional URL](https://github.com/kyopark2014/simple-data-aquisition-unit/tree/main/lambda-for-functional-url) 코드의 "deploy.zip"을 업로드하여 코드를 Lambda Function에 반영합니다. 
 
-[Lambda for Functional URL - Queue](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/queue/lambda-for-functional-url/index.js)
 
-![noname](https://user-images.githubusercontent.com/52392004/165222949-cd52cab3-b270-43f2-bbe7-94cf649a44d7.png)
+![noname](https://user-images.githubusercontent.com/52392004/165639767-eb743ea5-094d-4c51-a572-ef1c3aca4153.png)
 
 
 9) 아래 그림과 같이 [Configuration] - [Environment variables]에서 [Edit]를 선택한 후에, "Key"로 "sqlUrl"을 넣고, "Value"에는 [SQS](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/sqs.md) 생성할때 복사해놓은 SQS URL을 입력합니다.  
