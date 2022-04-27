@@ -59,4 +59,16 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 ![noname](https://user-images.githubusercontent.com/52392004/165485946-2576c1e3-dadd-40d8-90ad-e07dc5bcce4b.png)
 
+7) [Function overview]에서 [Add trigger]를 선택합니다.
+
+![noname](https://user-images.githubusercontent.com/52392004/165486545-2d1660da-71df-45b5-9f5c-90e2fc0ecf99.png)
+
+8) [Trigger configuration]에서 S3를 선택하고, 기생성한 bucket을 [bucket]으로 선택(여기서는 "data-acquisition-unit")하고, 하단의 "Ackonology"을 동의한 후에 [Add]를 선택합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/165487723-33298309-c406-45ce-8cb4-05ae65138a8d.png)
+
+9) 아래와 같이 Trigger로 S3가 선택됩니다. 
+
+![image](https://user-images.githubusercontent.com/52392004/165487983-c1159e80-a518-4f65-b585-1361ddc9ac7c.png)
+
 
