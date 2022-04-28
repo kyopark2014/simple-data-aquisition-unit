@@ -42,7 +42,7 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 ![noname](https://user-images.githubusercontent.com/52392004/165233595-94b2a8ac-97d9-47a1-9adb-84a50bf6907e.png) 
 
-10) 아래와 같이 SQS Permission 설정합니다.
+10) 아래와 같이 Kinesis Permission 설정합니다.
 
 ```java
         {
