@@ -1,6 +1,6 @@
 # Simple Data Acquisition Unit
 
-여기서는 모바일이나 TC와 같은 디바이스에서 발생하는 event들을 저장하고 이용하는 방법에 대해서 [Kinesis Data Stream](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-stream.md)와 [Kinesis Data Firehose](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-firehose.md)를 사용하여 보여줍니다. 수집된 데이터는 Amazon S3에 저장되는데, Bucket에 Object가 Create 될 때의 event를 Lambda로 받은 후에, [Amazon SQS](https://github.com/kyopark2014/technical-summary/blob/main/sqs.md)에 Push 하고 다시 이를 Lambda for output에서 활용합니다.
+여기서는 모바일이나 TV와 같은 디바이스에서 발생하는 event들을 저장하고 이용하는 방법에 대해서 [Kinesis Data Stream](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-stream.md)와 [Kinesis Data Firehose](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-firehose.md)를 사용하여 보여줍니다. 수집된 데이터는 Amazon S3에 저장되는데, Bucket에 Object를 저장할때 발생하는 Create event를 Lambda로 받은 후에, [Amazon SQS](https://github.com/kyopark2014/technical-summary/blob/main/sqs.md)에 Push 하고 다시 이를 Lambda for output에서 활용합니다.
 
 전체적인 Architecture는 아래와 같습니다.
 
@@ -33,7 +33,7 @@ $ git clone https://github.com/kyopark2014/simple-data-aquisition-unit
 
 ## Lambda for Functional URL
 
-[AWS Lambda Functional URLs](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 상용 적용됨으로 인해, Lambda 함수를 외부에서 간단하게 접속이 가능합니다. 여기서는 Simple한 Data Acquisition Unit를 설계하므로, Lambda Functional URL 기능을 활용합니다. 
+[AWS Lambda Functional URLs](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 상용 적용됨으로 인해, Lambda 함수를 외부에서 간단하게 접속 할 수 있습니다. 여기서는 Simple한 Data Acquisition Unit를 설계하므로, Lambda Functional URL 기능을 활용합니다. 
 
 [Lambda for Functional URL](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-functional-url.md)에 따라 Lambda를 생성하고, Functional URL 기능을 Enable 합니다. 
 
@@ -41,7 +41,7 @@ $ git clone https://github.com/kyopark2014/simple-data-aquisition-unit
 
 ## Lambda for SQS
 
-[Lambda for SQS의 생성](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-sqs.md)에 따라 S3에서 발생한 "write" Event를 Lambda를 통해 처리합니다. 
+[Lambda for SQS의 생성](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-sqs.md)에 따라 Amazon S3에서 발생한 "write" Event를 Lambda를 통해 처리합니다. 
 
 ## Lambda for output
 
