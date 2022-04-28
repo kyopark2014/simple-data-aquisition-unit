@@ -14,6 +14,8 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 3) 아래와 같이 lambda 함수가 생성됩니다.
 
+![noname](https://user-images.githubusercontent.com/52392004/165685908-baea172e-7553-40f4-94f9-31864228b1ba.png)
+
 
 
 4) 아래와 같이 [Configuration] - [Functional URL] - [Create functional URL]을 선택합니다.
