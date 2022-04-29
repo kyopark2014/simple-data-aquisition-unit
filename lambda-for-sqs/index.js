@@ -41,6 +41,7 @@ exports.handler = async (event, context) => {
         };  
         try {
             let sqsResponse = await sqs.sendMessage(sqsParams).promise();  
+            
             console.log("sqsResponse: "+JSON.stringify(sqsResponse));
         } catch (err) {
             console.log(err);
