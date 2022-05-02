@@ -7,7 +7,7 @@
 <img width="837" alt="image" src="https://user-images.githubusercontent.com/52392004/165537356-3e29a707-f24e-4859-8f3b-acd6b7e7e603.png">
 
 
-본 Repository는 기본적인 데이터 저장 및 활용 시나리오를 설명하므로, IaC (infrastructure as Code)를 사용하지 않고, Console로만 구현합니다. 
+본 Repository는 기본적인 데이터 저장 및 활용 시나리오를 설명하므로, IaC (infrastructure as Code)를 사용하지 않고, Console로만 구현합니다. CDK로 구현시 필요한 referece로는 [Amazon S3의 신규 Object 생성 Trigger의 스케줄링 방법](https://github.com/kyopark2014/case-study-s3-trigger-event)와 [Amazon Serverless를 이용한 실시간 버스 정보 수집 및 저장](https://github.com/kyopark2014/data-analytics-for-businfo)에 관련코드가 있으니 참고하십시요. 
 
 인프라를 구현하기 전에 아래와 같이 repository들을 미리 다운로드 합니다. 
 
